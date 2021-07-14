@@ -404,5 +404,91 @@ footer img{
             justify-items: center;
         }
 
+}
 
- }
+/* --------- Tablet Devices ---------  */
+
+@media only screen and (min-width:688px) and (max-width:992px){
+
+    /*  -  First section  -   */
+    #copa-section{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    #copa-text{
+        width: 100%;
+    }
+    #copa-images{
+        display: grid;
+        width: 100%;
+    }
+    .omg>#copa-images{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+    }
+    #copa-image{
+        justify-items: center;
+        position: relative;
+        top: 50px;
+        left: -99px;
+        right: 200px;
+        bottom: 60px;
+    }
+    #copa-image img{
+        width: 400px;
+        height: 350px;
+        position: relative;
+        right: 90px;
+    }
+    #copa-ball img{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        left: -30px;
+    }
+   
+    /*  -  Second Section   -  */
+    
+    #top-players{
+        display: grid;
+        width:100%;
+        grid-template-columns: repeat(2,1fr);
+        flex-direction: column;
+        justify-items: center;
+        margin:auto;
+    }
+    
+    /*  -  Third Section  -   */
+    
+    #subscribe{
+        flex-direction: column;
+        justify-items: center;
+        margin:auto;
+        height: auto;
+        }
+    .sub-text{
+        font-size: 18px;
+        width: 400px;
+    }
+    #email-button{
+        width: 200px;
+        height: 10px;
+    }
+    ::placeholder{
+        font-size:smaller;
+    }
+    /*  -  Fourth Section   -  */
+    
+    #watch-video h2{
+        margin-top: 0;
+    }
+
+    #watch-video iframe{
+            width:100%;
+    }
+    
+    /*  -  Fifth Section  -  */
+
+   
+    
+}

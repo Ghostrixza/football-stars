@@ -139,6 +139,7 @@ body{
     background-size: cover;
     background-repeat:no-repeat;
     height: 800px;
+    padding-bottom: 10px;
  }
  
  /* Background */
@@ -148,6 +149,7 @@ body{
     animation: Rotation 8s linear infinite ;
     animation-play-state: running;
  }
+
 /* Background Animation */
  @keyframes Rotation {
      from{
@@ -158,7 +160,7 @@ body{
      }  
  }
  
- /* Subscribe-text */
+/* Subscribe-text */
  .sub-text{
     position:absolute;
     font-size: 30px;
@@ -176,7 +178,7 @@ body{
      color: yellow;
  }
 
- /* Interactive */
+ /*  -  Interactive  -   */
  
  /* Email */
  #email-button{
@@ -208,3 +210,71 @@ body{
     font-size: 10px;
  }
  
+/*-----------------------
+    Watch Video 
+ -----------------------*/
+ 
+ /* Core Containers */
+ #watch-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(82, 82, 82);
+    height: 700px;
+}
+
+/* Text */
+#watch-video h2{
+    color: rgb(12, 12, 12);
+    font-size: 40px;
+}
+
+/* Video */
+#watch-video iframe{
+    width: 1000px;
+    height: 500px;
+}
+
+/*-----------------------
+    Footer
+ -----------------------*/
+/* Core Containers
+ */
+ footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-top: 5px solid rgb(38, 38, 38);
+}
+
+ /* logo */
+footer img{
+    margin: 40px 0px 020px 0px;
+    width: 423.87px;
+    height: 105px;
+}
+
+/* icons */
+.icons{
+    display: flex;
+}
+.fab{
+    color: #969BAB;
+    font-size: 18.49px;
+    background-color: #0b0d1713;
+    margin-right: 14px;
+    padding: 6px;
+    border-radius: 30px;
+}
+
+/* Copyright */
+#copyright{
+    font-size: 18px;
+    margin-top: 2px;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 63px;
+}

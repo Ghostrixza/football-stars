@@ -9,7 +9,7 @@ body{
 
 
 /*-----------------------
-    Celebrate-Copa 
+    Celebrate Copa 
  -----------------------*/
  
 /* Copa title */
@@ -19,7 +19,8 @@ body{
     background-color: rgb(51, 51, 182);
 }
 #copa-text{
-    margin-left: 130px;
+    margin-left: auto;
+    margin-right: 102px;
 }
 #copa-title{
     font-size: 55px;
@@ -33,7 +34,7 @@ body{
     color: rgb(19, 19, 194);
 }
 #watch-button{
-    color: rgb(83, 199, 193);
+    color: rgb(83, 182, 199);
     font-weight: 400;
     font-size: 17px;
     text-decoration: none;
@@ -43,13 +44,13 @@ body{
 }
 .fa-arrow-right{
     margin-left: 8px;
-    color: rgb(0, 187, 255);
+    color: rgb(255, 247, 0);
 }
 
 /* Copa Images */
 #copa-images{
     display: flex;
-    margin-right: 150px;
+    margin-right: 140.99px;
     border: 1px;
 }
 #copa-ball img{
@@ -61,40 +62,65 @@ body{
 #copa-ball:hover img{
     transform: rotate(3500deg);
 }
+
 #copa-image img{
     width: 556.1px;
     height: 456px;
 }
 
 /*-----------------------
-    Top-players 
+    Top players 
  -----------------------*/
 #top-players-title{
     font-size: 30px;
-    margin-left: 40%;
     display: flex;
+    justify-content: center;
+    background-color: rgb(74, 165, 250);
 }
  #all-players{
-    background-color: rgb(230, 229, 229);
+    background-color: rgb(74, 165, 250);
 }
 #top-players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 10px;
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
     margin: 15px;
     margin-left: 180px;
-    margin-right: 180px;
+    margin-right: 210px;
 }
+.player{
+    background-color: rgb(132, 196, 255);
+    border: 0px solid gray ;
+    width: 300px;
+    padding: 15px 15px 16px 15px;
+    transition: transform 0.2s ease-out;
+}
+.player:hover{
+    transform: scale(1.07);
+}
+
+/* Player Images */
 #top-players img{
     width: 300px;
     height: 256px;
 }
+.player-image{
+    height: 256px;
+}
+
+/* Player info */
+.player-info{
+    margin: 16px 15px 33px 15px;
+}
 .player-info h2{
-    font-weight: bolder;
-    font-size: 25px;
+    font-weight: 700;
+    font-size: 28px;
 }
-.player{
-    background-color: white;
-    border: 2px solid gray ;
-    width: 300px;
+.player-info p{
+    color: #3c3c3c;
+    font-size: 16px;
+    font-weight: 400;
 }
+
+

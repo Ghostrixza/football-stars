@@ -380,10 +380,9 @@ footer img{
                 justify-items: center;
                 margin:auto;
                 height: auto;
+                padding: 40px 0;
             }
-        
-        /*  -  Fourth Section   -  */
-        
+            
         .sub-text{
             height:10;
             font-size: x-small;
@@ -396,12 +395,33 @@ footer img{
         ::placeholder{
             font-size:smaller;
         }
-        #watch-video iframe{
-                width:100%;
+        
+        /*  -  Fourth Section   -  */
+        
+        #watch-video{
+            height: 450px;
         }
+        
+        #watch-video h2{
+            font-size: 30px;
+            margin-top: 0;
+        }
+        
+        #watch-video iframe{
+                width:400px;
+                height: 300px;
+        }
+        
+        /*   -  Fifth Section   -   */
+        
         #footer{
             width: 100%;
             justify-items: center;
+        }
+        #footer img{
+            width: 250px;
+            height: auto;
+            margin-right: 8px;
         }
 
 }
